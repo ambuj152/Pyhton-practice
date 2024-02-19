@@ -4,7 +4,7 @@ def is_prime(number):
     
     if number % 2 == 0 or number % 3 == 0:
         return False 
-    for i in range(5, int(number**0.5) + 1, 6):
+    for i in range(5, int(number=number*0.5) + 1, 6):
         if number% i == 0 or number % (i + 2) == 0:
             return False
     return True
