@@ -15,7 +15,6 @@ class Account:
     def printBalance(self):
        return self.balance
       
-
 acc=Account(10000, 12345)
 print( "your account number is",acc.accNo,"and the balance ammount is",acc.balance)
 acc.debit(600)
